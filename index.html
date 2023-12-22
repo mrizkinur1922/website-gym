@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Website Gym | Madrim Gym</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#"><img src="assets/logo.png" alt="logo" />adrim Gym</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="ri-menu-line"></i></span>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#about">Tentang</a></li>
+          <li class="link"><a href="#class">Kelas</a></li>
+          <li class="link"><a href="#trainer">Pelatih</a></li>
+          <li class="link"><a href="#price">Harga</a></li>
+          <li class="link"><button class="btn">Hubungi kami</button></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4>Selamat Datang</h4>
+          <h1 class="section__header">Di Madrim GYM</h1>
+          <p>
+            "Gym bukan sekadar tempat berolahraga, 
+            ini adalah tempat di mana impian kesehatan Anda menjadi kenyataan.
+            Mari kita wujudkan bersama."
+          </p>
+          <div class="header__btn">
+            <button class="btn">bergabung sekarang</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img class="about__bg" src="assets/dot-bg.png" alt="bg" />
+        <img src="assets/about.png" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Tentang Madrim Gym</h2>
+        <p class="section__description">
+          Dipimpin oleh tim instruktur yang ahli dan penuh semangat,
+          "The Class You Will Get Here" adalah sesi berenergi tinggi yang berorientasi pada hasil, 
+          menggabungkan perpaduan sempurna dari kardio, latihan kekuatan, dan latihan fungsional.
+        </p>
+        <div class="about__grid">
+          <div class="about__card">
+            <span><i class="ri-open-arm-line"></i></span>
+            <div>
+              <h4>Kebijakan Pintu Terbuka</h4>
+              <p>
+                Kami percaya dalam memberikan akses tidak terbatas kepada semua individu,
+                terlepas dari tingkat kebugaran, usia, atau latar belakang mereka.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <span><i class="ri-shield-cross-line"></i></span>
+            <div>
+              <h4>Diasuransikan Sepenuhnya</h4>
+              <p>
+                Ketenangan pikiran Anda adalah prioritas utama kami, dan komitmen kami untuk itu
+                keselamatan Anda meluas ke setiap aspek perjalanan kebugaran Anda.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <span><i class="ri-p2p-line"></i></span>
+            <div>
+              <h4>Pelatih Pribadi</h4>
+              <p>
+                Dengan rencana latihan yang dipersonalisasi dan disesuaikan dengan kebutuhan Anda, kami akan melakukannya
+                memastikan Anda mendapatkan hasil maksimal dari pengalaman gym Anda.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container class__container" id="class">
+      <h2 class="section__header">Kelas GYM</h2>
+      <p class="section__description">
+        Temukan beragam kelas menyenangkan di gym kami yang dirancang untuk itu
+        melayani semua tingkat kebugaran dan minat. Apakah Anda seorang yang berpengalaman
+        atlet atau baru memulai perjalanan kebugaran Anda, kelas kami menawarkan
+        sesuatu untuk semuanya.
+      </p>
+      <div class="class__grid">
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-1.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Latihan kekuatan</h4>
+            <p>Latihan ketahanan</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-2.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Fleksibilitas & Mobilitas</h4>
+            <p>Yoga & Pilates</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-3.jpg" alt="class" />
+          <div class="class__content">
+            <h4>HIIT</h4>
+            <p>Pelatihan Sirkuit</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-4.jpg" alt="class" />
+          <div class="class__content">
+            <h4>kelompok Kebugaran</h4>
+            <p>Zumba atau Dance</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container trainer__container" id="trainer">
+      <h2 class="section__header">Staff Pelatih</h2>
+      <p class="section__description">
+        Pelatih kami lebih dari sekedar ahli dalam latihan; mereka penuh gairah
+        tentang membantu Anda mencapai tujuan kesehatan dan kebugaran Anda. Pelatih kami
+        dilengkapi untuk menyesuaikan program latihan untuk memenuhi kebutuhan unik Anda.
+      </p>
+      <div class="trainer__grid">
+        <div class="trainer__card">
+          <img src="assets/trainer-1.jpeg" alt="trainer" />
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>Rizki Ganteng</h4>
+            <h5>Kekuatan dan Pengondisian</h5>
+            <hr />
+            <p>
+              Dengan latar belakang olahraga kompetitif, dia berdedikasi untuk membantu
+              Anda mencapai kinerja fisik puncak Anda.
+            </p>
+            <div class="trainer__socials">
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-google-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="trainer__card">
+          <img src="assets/trainer-2.jpeg" alt="trainer" />
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>Dawid ardama</h4>
+            <h5>HIIT dan Fungsional</h5>
+            <hr />
+            <p>
+              Latihannya yang energik dan dinamis dirancang untuk mendorong Anda
+              batas, meningkatkan metabolisme, dan membakar kalori.
+            </p>
+            <div class="trainer__socials">
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-google-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="trainer__card">
+          <img src="assets/trainer-3.jpeg" alt="trainer" />
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>Faiz rasydan</h4>
+            <h5>Yoga dan pemfokusan pikiran</h5>
+            <hr />
+            <p>
+              Sesi Faiz adalah tentang postur fisik dan juga tentang
+              menumbuhkan kedamaian batin dan perhatian.
+            </p>
+            <div class="trainer__socials">
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-google-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container price__container" id="price">
+      <h2 class="section__header">Paket Harga</h2>
+      <p class="section__description">
+        Paket harga kami hadir dengan berbagai tingkatan keanggotaan, masing-masing disesuaikan
+        memenuhi preferensi dan aspirasi kebugaran yang berbeda.
+      </p>
+      <div class="price__grid">
+        <div class="price__card">
+          <div class="price__content">
+            <h4>Paket Dasar</h4>
+            <img src="assets/price-1.png" alt="price" />
+            <p>
+              Paket Dasar kami adalah titik awal yang sempurna bagi individu
+              ingin memulai perjalanan kebugaran mereka atau tetap aktif
+              gaya hidup.
+            </p>
+            <hr />
+            <h4>Fitur Utama</h4>
+            <p>Rencana latihan yang cerdas</p>
+            <p>Latihan di rumah</p>
+          </div>
+          <button class="btn">bergabung sekarang</button>
+        </div>
+        <div class="price__card">
+          <div class="price__content">
+            <h4>Rencana mingguan</h4>
+            <img src="assets/price-2.png" alt="price" />
+            <p>
+              Rencana mingguan kami dirancang untuk memberikan struktur dan variasi
+              latihan Anda, memastikan Anda tetap termotivasi dan berada di jalur yang benar.
+            </p>
+            <hr />
+            <h4>Fitur utama</h4>
+            <p>PRO Gyms</p>
+            <p>Rencana latihan yang cerdas</p>
+            <p>Latihan di rumah</p>
+          </div>
+          <button class="btn">bergabung Sekarang</button>
+        </div>
+        <div class="price__card">
+          <div class="price__content">
+            <h4>Rencana bulanan</h4>
+            <img src="assets/price-3.png" alt="price" />
+            <p>
+              Dengan keanggotaan fleksibel ini, Anda akan memiliki akses ke kami
+              fasilitas gym canggih, pelatih ahli, dan bersemangat
+              komunitas kebugaran
+            </p>
+            <hr />
+            <h4>Fitur utama</h4>
+            <p>ELITE Gyms & Classes</p>
+            <p>PRO Gyms</p>
+            <p>Rencana latihan cerdas</p>
+            <p>Pelatihan di rumah</p>
+            <p>Pelatih pribadi</p>
+          </div>
+          <button class="btn">bergabung sekarang</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">Apa Kata Orang Tentang Kami?</h2>
+      <p class="section__description">
+        Kesaksian ini merupakan bukti komitmen kami untuk membantu
+        individu mencapai tujuan kebugaran mereka, dan membina dukungan
+        lingkungan untuk semua orang yang berjalan melewati pintu kami.
+      </p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-1.jpeg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>
+                Para pelatih di sini menyesuaikan rencana yang menyeimbangkan kehidupan kerja saya
+                tuntutan, dan saya telah melihat kemajuan luar biasa dalam kebugaran saya
+                perjalanan. Ini bukan hanya gym; ini adalah tempat perlindungan saya untuk perawatan diri.
+              </p>
+              <h4>Abi fariz</h4>
+              <h5>Manajer Pemasaran</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-2.jpeg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+              </div>
+              <p>
+                Keahlian pelatih dan komitmen gym terhadap kebersihan
+                selama masa-masa ini telah menjadikannya tempat yang aman untuk saya pelihara
+                kesehatan saya dan menghilangkan stres.
+              </p>
+              <h4>Amelia Shafa</h4>
+              <h5>Perawat Berlisensi</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-3.jpeg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>
+                Keberagaman kelas dan komunitas yang mendukung membuat saya tetap bertahan
+                termotivasi. Saya telah menurunkan berat badan, mendapatkan kepercayaan diri, dan menemukan yang baru
+                tingkat energi untuk menginspirasi murid-murid saya.
+              </p>
+              <h4>Arthur Aceng</h4>
+              <h5>pengajar</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-4.jpeg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                Akses 24/7 gym ini telah menjadi penyelamat. Entah itu a
+                latihan larut malam atau sesi pagi hari, kenyamanan
+                di sini tidak ada duanya.
+              </p>
+              <h4>Zarir</h4>
+              <h5>Pengusaha</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#"><img src="assets/logo.png" alt="logo" />adrim Gym</a>
+          </div>
+          <p>
+            Ambil langkah pertama menuju Anda yang lebih sehat dan kuat bersama kami
+            rencana harga yang tidak ada duanya. Mari berkeringat, meraih prestasi, dan menaklukkan
+            bersama!
+          </p>
+          <div class="footer__socials">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Perusahaan</h4>
+          <div class="footer__links">
+            <a href="#">Bisnis</a>
+            <a href="#">Franchise</a>
+            <a href="#">Kemitraan</a>
+            <a href="#">Jaringan</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Tentang kami</h4>
+          <div class="footer__links">
+            <a href="#">Blogs</a>
+            <a href="#">keamanan</a>
+            <a href="#">Careers</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Kontak</h4>
+          <div class="footer__links">
+            <a href="#">Kontak kami</a>
+            <a href="#">Kebijakan pribadi</a>
+            <a href="#">Syarat & Ketentuan</a>
+            <a href="#">BMI Calculator</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Madrim Gym. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
